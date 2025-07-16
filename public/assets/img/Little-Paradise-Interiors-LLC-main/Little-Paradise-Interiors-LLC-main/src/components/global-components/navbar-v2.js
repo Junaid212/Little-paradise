@@ -82,12 +82,12 @@ class NavbarV2 extends Component {
 								<li><Link to="/home" >Home</Link></li>
 								{/* <li><Link to="/about">About</Link></li> */}
 								{/* <li><Link to="/Architecture">Architecture Design</Link></li> */}
-								<li><Link to="/Interior">Project</Link></li>
+								<li><Link to="/">Project</Link></li>
 								<li><Link to="/">Blog</Link></li>
 								{/* <li ><Link to="/our-projects">Projects</Link>
 									<ul style={{left:"-40px"}}>
 										<li><Link to="/Architecture">Architecture Design</Link></li>
-										<li><Link to="/Interior">Interior Designs</Link></li>
+										<li><Link to="/"> Designs</Link></li>
 										
 									</ul>
 								</li> */}
@@ -193,11 +193,11 @@ class NavbarV2 extends Component {
 						</li> */}
 						{/* <li><Link to="/about">About</Link></li> */}
 						{/* <li><Link to="/Architecture">Architecture Design</Link></li> */}
-								<li><Link to="/Interior">Project </Link></li>
+								<li><Link to="/">Project </Link></li>
 						{/* <li><Link to="/our-projects">Projects</Link>
 						<ul className="sub-menu" style={{fontSize:'20px'}}>
 							<li><Link to="/Architecture">Architecture Design </Link></li>
-							<li><Link to="/Interior">Interior Design</Link></li>
+							<li><Link to="/"> Design</Link></li>
 							
 						</ul>
 						</li> */}

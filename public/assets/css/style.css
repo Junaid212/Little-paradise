@@ -11879,9 +11879,9 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 /* Image hover effect */
 .ltn__blog-img img {
   transition: transform 0.3s ease;
-  height: 350px;
+  /* height: 350px; */
   width: 100%;
-  border-radius: 10%;
+  border-radius: 15px;
 }
 
 .ltn__blog-item:hover .ltn__blog-img img {

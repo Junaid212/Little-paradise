@@ -43,7 +43,7 @@ class ShopDetails32 extends Component {
     style={{
       marginTop: '-90px',
       marginBottom: '20px',
-      position: 'relative',
+      position: 'absolute',
       display: 'inline-block',
     }}
   >

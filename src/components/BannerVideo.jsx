@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
+import Faqs from "./Faqs";
+
 
 export default function BannerVideo() {
   return (
@@ -101,6 +103,10 @@ export default function BannerVideo() {
       <br />
       <li style={{ borderBottom: '2px solid black', display: 'inline-block' }}>
         <Link to="/Getin"> Get a Quote →</Link>
+      </li>
+      <br />
+      <li style={{ borderBottom: '2px solid black', display: 'inline-block' }}>
+        <Link to="/Faqs">FAQs →</Link>
       </li>
       <br />
       <li style={{ borderBottom: '2px solid black', display: 'inline-block' }}>

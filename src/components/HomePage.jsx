@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom/cjs/react-router-dom'
 import Btn from './Btn'
 import QuoteModalTrigger from './QuoteModalTrigger'
+import AboutUs from './AboutUs'
 
 export default function HomePage() {
   return (
@@ -12,9 +13,8 @@ export default function HomePage() {
 					<div className="ltn__shop-details-inner ltn__page-details-inner mb-60">
           
     <div >
-        <p id="responsive-text-project-bannerpage">Design that is <br/> guided  by  you,<br/>
-tailored for you,<br/>
-  and inspired by you.</p>
+        <p id="responsive-text-project-bannerpage" style={{textAlign:"center"}}>
+          We are a full-service interior design studio delivering end-to-end solutions, from concept to completion, across the United Arab Emirates.</p>
   <div className="btn-wrapper animated" id='responsive-text-project-title' >
    <div >
           {/* <Link to="/Architecture" className="buttons">Architecture Design</Link>&#160; */}
@@ -79,6 +79,7 @@ tailored for you,<br/>
     </div>
     </div>
     </div>
+    <AboutUs/>
     </div>
   )
 }

@@ -11879,7 +11879,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .ltn__blog-item:hover .ltn__blog-img img {
-  transform: scale(1.05); /* Slightly zooms in the image */
+  transform: scale(0.05); /* Slightly zooms in the image */
 }
 
 /* Text underline animation */

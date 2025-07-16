@@ -92,6 +92,8 @@ import Jamal from './components/Jamal';
 import MonrevePage from './components/shop-components/MonrevePage';
 import Monreve from './components/Monreve';
 import GetTouchPage from './components/GetTouchPage';
+import Faqs from './components/Faqs';
+import FaqPage from './components/FaqPage';
 class Root extends Component {
     render() {
         return(
@@ -189,6 +191,8 @@ class Root extends Component {
                         <Route path="/Jamal" component={ Jamal} />
                         <Route path="/Monreve" component={ Monreve} />
                         <Route path="/Getin" component={GetTouchPage} />
+                        <Route path="/Faqs" component={FaqPage} />
+            
                         {/* new lpi */}
 	                </Switch>
 	                </div>
