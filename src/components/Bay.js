@@ -26,7 +26,7 @@ import BayPage from './shop-components/BayPage';
 const Bay = () => {
     return <div>
         <NavbarV2 />
-        <PageHeader headertitle="Bay Bites, Sheikh Zayed, Dubai"  customclass="mb-0" />
+        <PageHeader headertitle="Bay Bites"  customclass="mb-0" />
         {/* <ProductSliderV115/> */}
         <BayPage />
         {/* <CallToActionV1 /> */}

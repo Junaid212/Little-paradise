@@ -21,7 +21,7 @@ import ShopDetails16 from './shop-components/shop-details16';
 const Product_Details16 = () => {
     return <div>
         <NavbarV2 />
-        <PageHeader headertitle="GamingRoom"  customclass="mb-0" />
+        <PageHeader headertitle="Illoura"  customclass="mb-0" />
         {/* <ProductSliderV115/> */}
         <ShopDetails16 />
         {/* <CallToActionV1 /> */}

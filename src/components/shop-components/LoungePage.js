@@ -16,9 +16,8 @@ class LoungePage extends Component {
                     
                         {/* <h2 id='responsive-text-project-heading'>  Garment  Store / TWL
                         </h2> */}
-                     {/* <label id='responsive-text-project-title'><span className="ltn__secondary-color"><img src={publicUrl+"assets/img/Allimgs/pin.png"}/></span>Mangalore</label>  */}
-                      <p   id='responsive-text-project-title'>This Majlis in Abu Dhabi blends modern minimalism with traditional hospitality. Featuring neutral tones, plush seating, soft rugs, and elegant textures, the space invites comfort and conversation. 
-Natural light filters through sheer curtains, enhancing the serene ambiance-ideal for gatherings, reflection, and connection in a refined yet welcoming environment.</p>
+                     <label id='responsive-text-project-title'><span className="ltn__secondary-color"><img src={publicUrl+"assets/img/Allimgs/pin.png"}/></span>Abu Dhabi, United Arab Emirates</label> 
+                      <p   id='responsive-text-project-title'>This contemporary Majlis interior design in Abu Dhabi blends traditional Arabic hospitality with modern minimalism. Neutral tones, custom built seating, and rich textures create a luxurious yet inviting atmosphere. Designed for comfort and cultural connection, the space reflects refined elegance and functional design in a prestigious residential setting.</p>
                      {/* <div className="ltn__property-details-gallery mb-30" id='responsive-text-project-title'>
                         <div className="row">
                             <div className="col-md-4">

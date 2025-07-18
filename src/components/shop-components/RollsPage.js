@@ -16,8 +16,10 @@ class RollsPage extends Component {
                     
                         {/* <h2 id='responsive-text-project-heading'>  Garment  Store / TWL
                         </h2> */}
-                     {/* <label id='responsive-text-project-title'><span className="ltn__secondary-color"><img src={publicUrl+"assets/img/Allimgs/pin.png"}/></span>Mangalore</label>  */}
-                      <p   id='responsive-text-project-title'>A compact cafeteria designed with a bold orange and black color palette, reflecting a modern industrial aesthetic softened by curated landscaping elements. Strategically located in a residential Arab neighborhood, the space primarily caters to drive-up and pickup customers, offering a convenient and visually striking takeaway experience. The design focuses on balancing raw industrial finishes with greenery to create a unique identity and enhance curb appeal in a high-traffic, car-centric zone.</p>
+                     <label id='responsive-text-project-title'><span className="ltn__secondary-color"><img src={publicUrl+"assets/img/Allimgs/pin.png"}/></span>Al Mizhar, Dubai, United Arab Emirates</label> 
+                      <p   id='responsive-text-project-title'>A compact, takeaway-focused cafeteria with an industrial orange black theme, softened by landscaping. </p>
+                      <p   id='responsive-text-project-title'>This compact cafeteria in a busy Arab neighborhood features a bold industrial interior design with an orange and black color palette. Curated greenery softens the raw finishes, enhancing curb appeal. Designed for takeaway and drive up service, the space blends functionality, visibility, and style in a high traffic setting.
+ </p>
                      {/* <div className="ltn__property-details-gallery mb-30" id='responsive-text-project-title'>
                         <div className="row">
                             <div className="col-md-4">

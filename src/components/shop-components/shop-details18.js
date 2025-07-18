@@ -14,16 +14,17 @@ class ShopDetails18 extends Component {
 					<div className="col-lg-12 col-md-12">
 					<div className="ltn__shop-details-inner ltn__page-details-inner mb-60">
 					
-						<h2 id='responsive-text-project-heading'> Residential Interiors / Sky
-                        </h2>
-					 <label id='responsive-text-project-title'><span className="ltn__secondary-color"><img src='assets/img/Allimgs/pin.png' /></span> Mangalore</label> 
+						{/* <h2 id='responsive-text-project-heading'>Sky
+                        </h2> */}
+					 <label id='responsive-text-project-title'><span className="ltn__secondary-color"><img src='assets/img/Allimgs/pin.png' /></span>Residential Interiors | Mangalore, Karnataka</label> 
                     
-						{/* <h4 className="title-2">Estatehouse</h4>
-						<p>Nestled within a scenic landscape, our double-sized house layout offers an enriched ecosystem and enhanced security. Planned around the natural contours, each residence enjoys privacy while fostering community engagement through landscaped areas, footpaths, and street lights.</p>
-						<p>Residents also have access to a clubhouse featuring amenities such as a pool, indoor game area, and gym. These facilities provide opportunities for fun, stress relief, and quality time with loved ones.</p>
+						{/* <h4 className="title-2">Estatehouse</h4> */}
+						<p  id='responsive-text-project-title'>Middle Eastern-Inspired 3BHK Turnkey Interior Design in Mangalore with Sky Blue Accents</p>
+						<p  id='responsive-text-project-title'>Turnkey 3BHK interior design in Northern Sky City, Mangalore, tailored for an NRI family. Featuring modern Middle Eastern inspired interiors with a neutral color palette, sky blue accents, and custom furniture. 
+This residential project blends luxury, functionality, and cultural aesthetics for a refined, contemporary home</p>
 						{/* <p>Magnanimous First of its kind :-
                         It is the first of its kind, offering unparalleled innovation, luxury, and community-focused amenities for an extraordinary lifestyle experience.
-                        </p> */}
+                        </p>
                        
 						{/* <h4 className="title-2">Property Detail</h4>   */}
 						{/* <div className="property-detail-info-list section-bg-1 clearfix mb-60">                           */}

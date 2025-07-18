@@ -26,7 +26,7 @@ import RevaPage from './shop-components/RevaPage';
 const Reva = () => {
     return <div>
         <NavbarV2 />
-        <PageHeader headertitle="REVA, Business Bay, Dubai, UAE"  customclass="mb-0" />
+        <PageHeader headertitle="REVA"  customclass="mb-0" />
         {/* <ProductSliderV115/> */}
         <RevaPage />
         {/* <CallToActionV1 /> */}

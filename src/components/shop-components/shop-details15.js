@@ -14,17 +14,17 @@ class ShopDetails15 extends Component {
 					<div className="col-lg-12 col-md-12">
 					<div className="ltn__shop-details-inner ltn__page-details-inner mb-60">
 					
-						<h2 id='responsive-text-project-heading'> SpecksDesk
-                        </h2>
+						{/* <h2 id='responsive-text-project-heading'> SpecksDesk
+                        </h2> */}
 					 <label id='responsive-text-project-title'
-					 ><span className="ltn__secondary-color"><img src='assets/img/Allimgs/pin.png' /></span>Puttur</label> 
+					 ><span className="ltn__secondary-color"><img src='assets/img/Allimgs/pin.png' /></span>Curved Specs Display Desk | Puttur, India</label> 
 						{/* <h4 className="title-2">Estatehouse</h4>
 						<p>Nestled within a scenic landscape, our double-sized house layout offers an enriched ecosystem and enhanced security. Planned around the natural contours, each residence enjoys privacy while fostering community engagement through landscaped areas, footpaths, and street lights.</p>
 						<p>Residents also have access to a clubhouse featuring amenities such as a pool, indoor game area, and gym. These facilities provide opportunities for fun, stress relief, and quality time with loved ones.</p>
 						{/* <p>Magnanimous First of its kind :-
                         It is the first of its kind, offering unparalleled innovation, luxury, and community-focused amenities for an extraordinary lifestyle experience.
                         </p> */}
-                        <p id='responsive-text-project-title'>The optical store focuses on making sunglasses the star attraction. The interior is charechterized by fluidity and movement, achieved through curved display units that weave through the space. Neutral tones provide a backdrop, allowing the sunglasses to stand out, accentuated by lighting.
+                        <p id='responsive-text-project-title'>This optical store interior design puts sunglasses at the forefront, with a layout that celebrates product visibility and customer flow. Custom curved display units introduce a sense of fluidity and movement, guiding visitors through the space. A neutral color palette paired with focused retail lighting design ensures the eyewear remains the visual highlight. Blending modern retail interiors with smart spatial planning, the store delivers both style and functionality.
                         </p>
 						{/* <h4 className="title-2">Property Detail</h4>   */}
 						{/* <div className="property-detail-info-list section-bg-1 clearfix mb-60">                           */}

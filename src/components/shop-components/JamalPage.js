@@ -16,8 +16,11 @@ class JamalPage extends Component {
                     
                         {/* <h2 id='responsive-text-project-heading'>  Garment  Store / TWL
                         </h2> */}
-                     {/* <label id='responsive-text-project-title'><span className="ltn__secondary-color"><img src={publicUrl+"assets/img/Allimgs/pin.png"}/></span>Mangalore</label>  */}
-                      <p   id='responsive-text-project-title'>Elegant Al Furjan villa in Dubai showcases modern luxury with timeless design elements. Featuring spacious layouts, soft neutral tones, and refined finishes, this home offers a serene, sophisticated atmosphere. Perfect for contemporary family living, every detail blends comfort and style in one of Dubai’s most desirable residential communities.</p>
+                     <label id='responsive-text-project-title'><span className="ltn__secondary-color"><img src={publicUrl+"assets/img/Allimgs/pin.png"}/></span>Al Furjan, Dubai, United Arab Emirates</label> 
+                      <p   id='responsive-text-project-title'>Elegant Al Furjan villa in Dubai showcases modern luxury with timeless design elements.<br/>This modern home interior in Dubai features a spacious layout, soft neutral tones, and refined finishes. Designed for contemporary family living, it blends comfort and sophistication seamlessly. Every element from materials to layout, enhances functionality and style, making it ideal for one of Dubai’s premier residential communities.
+</p>
+
+                     
                      {/* <div className="ltn__property-details-gallery mb-30" id='responsive-text-project-title'>
                         <div className="row">
                             <div className="col-md-4">

@@ -71,13 +71,15 @@ class ShopDetails32 extends Component {
           font-size: 25px;
         }
       }
+		
     `}
+	
   </style>
 </div>
 
 
 						<div className="tab-pane fade active show" id="Commercial">
-								<div className="ltn__product-tab-content-inner ltn__product-grid-view" id='responsive-text-project-heading'>
+								<div className="ltn__product-tab-content-inner " id='responsive-text-project-heading'>
 									<div className="row">
 									<div className="col-lg-12">
 										{/* Search Widget */}
@@ -92,6 +94,31 @@ class ShopDetails32 extends Component {
 		          {/* <div className="ltn__blog-brief"> */}
 		           
 		            <h3 className="ltn__blog-title  mt-10"  id='productText'><Link to="/TWL"> TWL</Link></h3>
+		          
+		          {/* </div> */}
+		        </div>
+		      </div>
+
+			   <div className="col-lg-4">
+		        <div className="ltn__blog-item ltn__blog-item-3">
+		          <div className="ltn__blog-img">
+		            <Link to="/Aura"><img src={publicUrl+"assets/img/updatates/project/Aura.jpg"} alt="#" /></Link>
+		          </div>
+		          {/* <div className="ltn__blog-brief"> */}
+		           
+		            <h3 className="ltn__blog-title mt-10"  id='productText'><Link to="/SpecksDesk"> Aura</Link></h3>
+		          
+		          {/* </div> */}
+		        </div>
+		      </div>
+			   <div className="col-lg-4">
+		        <div className="ltn__blog-item ltn__blog-item-3">
+		          <div className="ltn__blog-img">
+		            <Link to="/Rue"><img src={publicUrl+"assets/img/updatates/project/rue1.jpg"} alt="#" /></Link>
+		          </div>
+		          {/* <div className="ltn__blog-brief"> */}
+		           
+		            <h3 className="ltn__blog-title mt-10"  id='productText'><Link to="/SpecksDesk"> Rué</Link></h3>
 		          
 		          {/* </div> */}
 		        </div>

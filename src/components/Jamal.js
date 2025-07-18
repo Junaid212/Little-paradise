@@ -26,7 +26,7 @@ import JamalPage from './shop-components/JamalPage';
 const Jamal = () => {
     return <div>
         <NavbarV2 />
-        <PageHeader headertitle="JAMAL, Al Furjan, Dubai"  customclass="mb-0" />
+        <PageHeader headertitle="JAMAL"  customclass="mb-0" />
         {/* <ProductSliderV115/> */}
         <JamalPage />
         {/* <CallToActionV1 /> */}

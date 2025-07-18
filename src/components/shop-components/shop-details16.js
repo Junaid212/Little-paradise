@@ -16,8 +16,10 @@ class ShopDetails16 extends Component {
 					
 						<h2 id='responsive-text-project-heading'> 
                         </h2>
-					 <label id='responsive-text-project-title'><span className="ltn__secondary-color"><img src='assets/img/Allimgs/pin.png' /></span>Basement / Mangalore
+					 <label id='responsive-text-project-title'><span className="ltn__secondary-color"><img src='assets/img/Allimgs/pin.png' /></span>Modern Gamin room in Mangalore, India 
                      </label> 
+					 <p   id='responsive-text-project-title'>This modern gaming room interior in Mangalore features a grey, white, and black color scheme with natural textures. A plush Lazyboy adds comfort, while a custom-built chess-inspired storage unit reflects the client’s personality. Designed for relaxation and function, it’s the perfect gaming space with sleek, minimalist aesthetics.
+</p>
 
 
 					 <div className="ltn__property-details-gallery mb-30" id='responsive-text-project-title'>

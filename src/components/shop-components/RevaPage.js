@@ -16,9 +16,9 @@ class RevaPage extends Component {
                     
                         {/* <h2 id='responsive-text-project-heading'>  Garment  Store / TWL
                         </h2> */}
-                     {/* <label id='responsive-text-project-title'><span className="ltn__secondary-color"><img src={publicUrl+"assets/img/Allimgs/pin.png"}/></span>Mangalore</label>  */}
-                      <p   id='responsive-text-project-title'>This 2BHK apartment in Business Bay in the heart of Dubai, is a warm blend of modern elegance and cozy comfort. 
-With soft neutrals, layered textures, and natural accents, the space feels both stylish and serene. Thoughtfully planned interiors maximize functionality while creating a calm, inviting environment perfect for city living.</p>
+                     <label id='responsive-text-project-title'><span className="ltn__secondary-color"><img src={publicUrl+"assets/img/Allimgs/pin.png"}/></span> Business Bay, Dubai, United Arab Emirates</label> 
+                      <p   id='responsive-text-project-title'>This 2BHK apartment interior design in Business Bay, Dubai, combines modern elegance with cozy comfort. Featuring soft neutral tones, layered textures, and natural accents, the space is thoughtfully planned for both functionality and style, creating a calm, inviting home ideal for contemporary city living in a vibrant urban setting.
+</p>
                      {/* <div className="ltn__property-details-gallery mb-30" id='responsive-text-project-title'>
                         <div className="row">
                             <div className="col-md-4">

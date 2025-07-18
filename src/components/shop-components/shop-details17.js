@@ -14,9 +14,9 @@ class ShopDetails17 extends Component {
 					<div className="col-lg-12 col-md-12">
 					<div className="ltn__shop-details-inner ltn__page-details-inner mb-60">
 					
-						<h2 id='responsive-text-project-heading'> 3 BHK / Earthessence
-                        </h2>
-					 <label id='responsive-text-project-title'><span className="ltn__secondary-color"><img src='assets/img/Allimgs/pin.png'/></span>Mangalore
+						{/* <h2 id='responsive-text-project-heading'> Earthessence
+                        </h2> */}
+					 <label id='responsive-text-project-title'><span className="ltn__secondary-color"><img src='assets/img/Allimgs/pin.png'/></span>Residential Interiors I Mangalore, Karnataka
                      </label> 
 						{/* <h4 className="title-2">Estatehouse</h4>
 						<p>Nestled within a scenic landscape, our double-sized house layout offers an enriched ecosystem and enhanced security. Planned around the natural contours, each residence enjoys privacy while fostering community engagement through landscaped areas, footpaths, and street lights.</p>
@@ -24,7 +24,10 @@ class ShopDetails17 extends Component {
 						{/* <p>Magnanimous First of its kind :-
                         It is the first of its kind, offering unparalleled innovation, luxury, and community-focused amenities for an extraordinary lifestyle experience.
                         </p> */}
-                        <p id='responsive-text-project-title'>Nature’s palette seamlessly intertwines with contemporary design, shapes the ambiance of this 3BHK. A consistent theme graces every space—a warm, neutral symphony of brown and white, adorned with a singular, striking accent drawn from nature’s canvas.
+                        <p id='responsive-text-project-title'>Nature Inspired Living Room Design with Forest Biome & Brick Red Accents.<br/> 
+							Modern living room interior design with forest green and brick red accents, inspired by nature. Features include textured wall tiles,
+							 a custom lacquered glass TV unit, and a neutral color palette. The design blends earthy tones and refined materials for a warm,
+							  contemporary, and visually rich living space.
 
                         </p>
 						{/* <h4 className="title-2">Property Detail</h4>   */}

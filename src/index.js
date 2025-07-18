@@ -94,6 +94,9 @@ import Monreve from './components/Monreve';
 import GetTouchPage from './components/GetTouchPage';
 import Faqs from './components/Faqs';
 import FaqPage from './components/FaqPage';
+import Aura from './components/Aura';
+import RuePage from './components/RuePage';
+import Rue from './components/Rue';
 class Root extends Component {
     render() {
         return(
@@ -192,6 +195,10 @@ class Root extends Component {
                         <Route path="/Monreve" component={ Monreve} />
                         <Route path="/Getin" component={GetTouchPage} />
                         <Route path="/Faqs" component={FaqPage} />
+                        <Route path="/Aura" component={Aura} />
+                        <Route path="/Rue" component={Rue} />
+
+
             
                         {/* new lpi */}
 	                </Switch>

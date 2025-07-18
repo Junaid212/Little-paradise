@@ -41,7 +41,7 @@ const Home_V2 = () => {
            <Helmet>
         <link rel="canonical" href='https://thearchitecturecorporation.com/home/' />
       </Helmet>
-        <HomeNav />
+        {/* <HomeNav /> */}
         <BannerVideo/>
         <HomePage/>
         <WhyChooseUs/>

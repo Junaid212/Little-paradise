@@ -16,8 +16,9 @@ class BayPage extends Component {
                     
                         {/* <h2 id='responsive-text-project-heading'>  Garment  Store / TWL
                         </h2> */}
-                     {/* <label id='responsive-text-project-title'><span className="ltn__secondary-color"><img src={publicUrl+"assets/img/Allimgs/pin.png"}/></span>Mangalore</label>  */}
-                      <p   id='responsive-text-project-title'>Bay Bites in Dubai is a chic and inviting eatery blending modern design with cozy elegance. With a sleek navy façade, glass display counters, and minimalistic interiors, it offers a stylish spot for enjoying delightful bites and coffee. Ideal for casual meetups and quick gourmet indulgence in the city.</p>
+                     <label id='responsive-text-project-title'><span className="ltn__secondary-color"><img src={publicUrl+"assets/img/Allimgs/pin.png"}/></span>Interior Design in Sheikh Zayed, Dubai</label> 
+                      <p   id='responsive-text-project-title'>A stylish Dubai café with navy façade, minimalist interiors, and glass counters.</p>
+                      <p   id='responsive-text-project-title'>Bay Bites is a modern café interior in Dubai featuring a bold navy façade, minimalist design, and sleek glass display counters. Designed for casual dining and quick coffee breaks, the space combines cozy elegance with functional layout, perfect for urban café culture and stylish, small format food service interiors.</p>
                      {/* <div className="ltn__property-details-gallery mb-30" id='responsive-text-project-title'>
                         <div className="row">
                             <div className="col-md-4">

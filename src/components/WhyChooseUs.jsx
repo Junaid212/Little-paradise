@@ -12,39 +12,39 @@ function WhyChooseUs() {
   const features = [
     {
       icon: <Lightbulb className="icon" />,
-      title: "End-to-End Turnkey Solutions",
+      title: " One-Stop Solution",
       description:
-        "From concept to completion — we manage everything, including design, sourcing, execution, and handover.",
+        "From space planning to final styling, we handle design, execution, and handover seamlessly.",
     },
     {
       icon: <Users className="icon" />,
-      title: "Creative & Experienced Team",
+      title: "Experienced Team",
       description:
-        "Our expert designers and project managers bring deep industry knowledge and creative excellence to every project.",
+        "Our designers, architects, and site experts bring creativity, precision, and years of industry insight.",
     },
     {
       icon: <Clock className="icon" />,
-      title: "Timely Project Delivery",
+      title: " Quick Turnaround",
       description:
-        "We follow streamlined workflows to ensure your project is completed on time without compromising on quality.",
+        "We streamline design and execution phases to meet your timelines without compromising on quality.",
     },
     {
       icon: <ClipboardCheck className="icon" />,
       title: "Transparent Process",
       description:
-        "No surprises — clear costs, timelines, and constant updates throughout the journey.",
+        "Clear budgets, defined timelines, and open communication at every step.",
     },
     {
       icon: <Handshake className="icon" />,
-      title: "Strong Industry Partnerships",
+      title: "Authority Relationships",
       description:
-        "We collaborate with top vendors, contractors, and specialists to bring the best to your space.",
+        "We coordinate with required authorities when needed, but focus primarily on smooth design to delivery execution.",
     },
     {
       icon: <MessageSquare className="icon" />,
-      title: "Tailored Client Support",
+      title: "Personalized Support",
       description:
-        "Your vision, our mission — personalized guidance and support at every stage of the project.",
+        "From your first idea to move-in day, our team is by your side to ensure a stress free experience.",
     },
   ];
 

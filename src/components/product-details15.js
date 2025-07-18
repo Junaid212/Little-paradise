@@ -20,7 +20,7 @@ import ShopDetails15 from './shop-components/shop-details15';
 const Product_Details15 = () => {
     return <div>
         <NavbarV2 />
-        <PageHeader headertitle="Optical  Store / Puttur
+        <PageHeader headertitle="SpecksDesk
 "  customclass="mb-0" />
         {/* <ProductSliderV115/> */}
         <ShopDetails15 />
