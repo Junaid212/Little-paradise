@@ -143,7 +143,7 @@ class NavbarV2 extends Component {
 				<div className="ltn__utilize-menu-inner ltn__scrollbar">
 					<div className="ltn__utilize-menu-head">
 					<div className="site-logo">
-						<Link to="/"><img src={publicUrl+"assets/img/Allimgs/whitelogo.png"} alt="Logo" style={{width:'90px'}} /></Link>
+						<Link to="/"><img src={publicUrl+"assets/img/updatates/project/Logo LPI orange.png"} alt="Logo" style={{width:'90px'}} /></Link>
 					</div>
 					<button className="ltn__utilize-close">×</button>
 					</div>
@@ -180,7 +180,7 @@ class NavbarV2 extends Component {
 							
 						</ul>
 						</li> */}
-								{/* <li><Link to="/blog-grid">Projects </Link></li> */}
+								<li><Link to="/Blogs">Blog </Link></li>
 								<li><Link to="/contact">Contact </Link></li>
 						
 				
@@ -262,7 +262,7 @@ class NavbarV2 extends Component {
 					<div className="ltn__social-media-2 " style={{ display: 'flex', justifyContent: 'flex-end', marginRight: '20px' }}>
 					<ul >
 						<li ><a href="#" title="Facebook"><i className="fab fa-facebook-f" /></a></li>
-						<li><a href="https://www.youtube.com/@TheArchitectureCorporation/videos" title="Twitter"><i className="fab fa-youtube" /></a></li>
+						{/* <li><a href="https://www.youtube.com/@TheArchitectureCorporation/videos" title="Twitter"><i className="fab fa-youtube" /></a></li> */}
 						<li><a href="https://www.linkedin.com/company/the-architecture-corporation/?originalSubdomain=in" title="Linkedin"><i className="fab fa-linkedin" /></a></li>
 						<li><a href="https://www.instagram.com/thearchitecturecorporation/" title="Instagram"><i className="fab fa-instagram" /></a></li>
 					</ul>

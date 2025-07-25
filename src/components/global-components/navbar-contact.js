@@ -61,7 +61,7 @@ class Contactnav extends Component {
 						<div className="col">
 						<div className="site-logo-wrap">
 							<div className="site-logo go-top">
-							<Link to="/"><img src={publicUrl+"assets/img/allimgLP/logo.png"} alt="Logo"  style={{width:'100px'}}/></Link>
+							<Link to="/"><img src={publicUrl+"assets/img/updatates/project/Logo%20LPI%20orange.png"} alt="Logo"  style={{width:'100px'}}/></Link>
 							</div>
 							<div className="get-support clearfix d-none">
 							<div className="get-support-icon">
@@ -165,7 +165,7 @@ class Contactnav extends Component {
 				<div className="ltn__utilize-menu-inner ltn__scrollbar">
 					<div className="ltn__utilize-menu-head">
 					<div className="site-logo">
-						<Link to="/"><img src={publicUrl+"assets/img/allimgLP/logo.png"} alt="Logo" style={{width:'90px'}} /></Link>
+						<Link to="/"><img src={publicUrl+"assets/img/updatates/project/LogoLPI orange.png"} alt="Logo" style={{width:'90px'}} /></Link>
 					</div>
 					<button className="ltn__utilize-close">×</button>
 					</div>
@@ -203,7 +203,7 @@ class Contactnav extends Component {
 						{/* </li> */}
 						{/* <li><Link to="/Architecture">Architecture Design</Link></li> */}
 														<li><Link to="/Interior">Project </Link></li>
-								{/* <li><Link to="/blog-grid">Projects </Link></li> */}
+								<li><Link to="/Blogs">Blog </Link></li>
 								<li><Link to="/contact">Contact </Link></li>
 						
 				
@@ -285,7 +285,7 @@ class Contactnav extends Component {
 					<div className="ltn__social-media-2" style={{ display: 'flex', justifyContent: 'flex-end', marginRight: '20px' }}>
 					<ul>
 						<li><a href="#" title="Facebook"><i className="fab fa-facebook-f" /></a></li>
-						<li><a href="https://www.youtube.com/@TheArchitectureCorporation/videos" title="Twitter"><i className="fab fa-youtube" /></a></li>
+						{/* <li><a href="https://www.youtube.com/@TheArchitectureCorporation/videos" title="Twitter"><i className="fab fa-youtube" /></a></li> */}
 						<li><a href="https://www.linkedin.com/company/the-architecture-corporation/?originalSubdomain=in" title="Linkedin"><i className="fab fa-linkedin" /></a></li>
 						<li><a href="https://www.instagram.com/thearchitecturecorporation/" title="Instagram"><i className="fab fa-instagram" /></a></li>
 					</ul>

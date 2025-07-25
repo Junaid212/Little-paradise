@@ -1,26 +1,25 @@
 import { useState, useEffect } from "react";
-import { ArrowLeft, ArrowRight } from "lucide-react";
 
 const Reviews = () => {
   const testimonials = [
     {
       id: 1,
-      text: "We appointed them for our house in Mangalore. They helped us out with everything. Any concerns or confusion we the colors, to the furniture design, every detail was looked at.",
+      text: "We appointed them for our house in Mangalore. They helped us out with everything. Any concerns or confusion we had was immediately cleared by them. The biggest plus point was that the result was exactly like the plan. From the colors, to the furniture design, every detail was looked at.",
       name: "-Mujeeb",
     },
     {
       id: 2,
-      text: " التعامل و العمل يتميز دائما بالاحترافية و الاهتمام بالتفاصيل العناية باهتمامات العميل مع مراعاة جوانب الجمال المتنوعة ينتج عنه تجربة رائعة بكل جوانبها و ينتج دائما عمل متميز و مشروعات غاية في الدقة و الاحترافية مع الطموح العالي و التطور المستمر سيصل بالتأكيد لأعلى مكانة ممكنة‎",
+      text: "التعامل و العمل يتميز دائما بالاحترافية و الاهتمام بالتفاصيل العناية باهتمامات العميل مع مراعاة جوانب الجمال المتنوعة ينتج عنه تجربة رائعة بكل جوانبها و ينتج دائما عمل متميز و مشروعات غاية في الدقة و الاحترافية مع الطموح العالي و التطور المستمر سيصل بالتأكيد لأعلى مكانة ممكنة‎",
       name: "-Omar Alm Eldien",
     },
     {
       id: 3,
-      text: "A group of highly enthusiastic, committed architects, who focus on delivering the idea and service based on client requirements. Always full of ideas and never back down from any challenge that might come in the way",
+      text: "AA group of highly enthusiastic, committed architects, who focus on delivering the idea and service based on client requirements. Always full of ideas and never back down from any challenge that might come in the way",
       name: "-Arkaan Sayed",
     },
     {
       id: 4,
-      text: "Innovative team, will provide you high quality and high end design ideas, understanding and supportive",
+      text: "Innovative team, will provide you high quality and high end design ideas, understanding and supportive.",
       name: "-Rahim A",
     },
     {
@@ -33,7 +32,7 @@ const Reviews = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [itemsPerView, setItemsPerView] = useState(3);
 
-  // Responsive view count
+  // Adjust items per view based on screen size
   useEffect(() => {
     const handleResize = () => {
       const width = window.innerWidth;
@@ -48,13 +47,13 @@ const Reviews = () => {
 
   const maxIndex = Math.max(0, testimonials.length - itemsPerView);
 
-  const nextSlide = () => {
-    setCurrentIndex(prevIndex => (prevIndex >= maxIndex ? 0 : prevIndex + 1));
-  };
-
-  const prevSlide = () => {
-    setCurrentIndex(prevIndex => (prevIndex <= 0 ? maxIndex : prevIndex - 1));
-  };
+  // Auto-slide effect
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex >= maxIndex ? 0 : prevIndex + 1));
+    }, 3000); // change slide every 5 seconds
+    return () => clearInterval(interval);
+  }, [maxIndex]);
 
   return (
     <div
@@ -74,45 +73,6 @@ const Reviews = () => {
             What Our Clients Tell About Us
           </h1>
         </div>
-
-        {/* Navigation Buttons */}
-        <button
-          onClick={prevSlide}
-          className=" position-absolute d-flex align-items-center justify-content-center"
-            style={{ 
-              left: '-80px', 
-              top: '50%', 
-              transform: 'translateY(-50%)', 
-              // width: '50px', 
-              height: '50px',
-              backgroundColor: '#fff',
-              border: 'none',
-              zIndex: 10,
-              borderRadius:"100px"
-            }}
-        >
-          <ArrowLeft size={32} color="#CB4D29" />
-        </button>
-
-        
-          <button 
-            onClick={nextSlide}
-            className="position-absolute   d-flex align-items-center justify-content-center"
-            style={{ 
-              right: '-90px', 
-              top: '50%', 
-              transform: 'translateY(-50%)', 
-              // width: '50px', 
-              height: '50px',
-              backgroundColor: '#fff',
-              border: 'none',
-              zIndex: 10,
-              borderRadius:"90px",
-              
-            }}
-        >
-          <ArrowRight size={32} color="#CB4D29" />
-        </button>
 
         {/* Testimonials Grid */}
         <div className="row g-4">
