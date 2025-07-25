@@ -445,7 +445,8 @@ h6,
   color: var(--ltn__heading-color);
   clear: both;
   font-family: var(--ltn__heading-font);
-  font-weight: 700;
+  font-weight: 480;
+  font-size: 2.5rem;
   line-height: 1.3;
   margin-bottom: 15px;
 }
@@ -457,9 +458,9 @@ p {
   -moz-hyphens: auto;
   -ms-hyphens: auto; */
   /* hyphens: auto; */
-  font-size: 30px;
+  /* font-size: 30px; */
   font-family: 'Poppins', sans-serif ;
-  font-weight: 400;
+  font-weight: 300;
   text-decoration:none solid rgb(0, 0, 0);
   vertical-align: baseline;
   word-spacing: 0px;
@@ -1504,7 +1505,7 @@ ul {
 /* ----------------------------------------------------
     ScrollUp
 ---------------------------------------------------- */
-#scrollUp {
+/* #scrollUp {
   background-color: var(--section-bg-1);
   color: var(--ltn__heading-color);
   bottom: 70px;
@@ -1522,17 +1523,17 @@ ul {
   transition: all 0.3s ease 0s;
   -webkit-box-shadow: var(--ltn__box-shadow-3);
   box-shadow: var(--ltn__box-shadow-3);
-}
-#scrollUp i {
+} */
+/* #scrollUp i {
   line-height: 40px;
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
-}
-#scrollUp:hover {
+} */
+/* #scrollUp:hover {
   background-color: var(--ltn__secondary-color);
   color: var(--white);
-}
+} */
 
 /* ----------------------------------------------------
     Owl Carousel 

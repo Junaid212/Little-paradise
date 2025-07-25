@@ -101,10 +101,10 @@ class BlogSlider extends Component {
 			  	  <div className="col-lg-4">
 							<div className="ltn__blog-item ltn__blog-item-3">
 							  <div className="ltn__blog-img">
-								<Link to="/Reva"><img src={publicUrl+"assets/img/allimgLP/reva/r2.jpg"} alt="#" /></Link>
+								<Link to="/Reva"><img src={publicUrl+"assets/img/Allimgs/Picture95.webp"} alt="#" /></Link>
 							  </div>
 							
-							  <h3 className="ltn__blog-title mt-10"  id='productText'><Link to="/Reva">Reva
+							  <h3 className="ltn__blog-title mt-10"  id='productText'><Link to="/TWL">TWL
 			  
 			  </Link></h3>
 							</div>

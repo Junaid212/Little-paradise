@@ -113,7 +113,7 @@ class Footer_v1 extends Component {
 						
 							<div className="footer-address-info" >
 				                    
-				                    <p id="footerstyle" className='contactlinefooter mb-0' ><a href="mailto:design@thearchitecturecorporation.com">design@thearchitecturecorporation.com</a></p>
+				                    <p id="footerstyle" className='contactlinefooter mb-0' ><a href="mailto:littleparadiseinteriors@gmail.com" style={{color:'white'}}> littleparadiseinteriors@gmail.com</a></p>
 									{/* <p id="footerstyle" ><a href="mailto:thearchitecturecorporation.com">thearchitecturecorporation.com</a></p> */}
 				                    
 								  </div>
@@ -147,7 +147,13 @@ class Footer_v1 extends Component {
 				          <div className="footer-widget footer-newsletter-widget">
 							<div className="footer-address-info">
 							<div className="footer-address-info" >
-				                    <p id="footerstyle" className='contactlinefooter ml-30 footercss'><a href="tel:+91 90362 68899">+91 90362 68899</a></p>
+									<style>{`
+					  		 a:hover{
+							color:white;
+							}
+
+					  `}</style>	
+				                    <p id="footerstyle" className='contactlinefooter ml-30 '><a href="tel:+971525877664"> +971 52 587 7664</a></p>
 									{/* <div className="ltn__social-media" > */}
 									<p id="footerstyle"   className="footercss" style={{marginTop:'-20px',marginLeft:'30px'}}><a><Social/></a></p>
 						    	{/* <Social /> */}

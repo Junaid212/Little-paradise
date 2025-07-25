@@ -97,11 +97,22 @@ import FaqPage from './components/FaqPage';
 import Aura from './components/Aura';
 import RuePage from './components/RuePage';
 import Rue from './components/Rue';
+import Thamra from './components/shop-components/Thamra';
+import VillaRaaha from './components/shop-components/VillaRaaha';
+import Mira from './components/Mira';
+import Alba from './components/Alba';
+import Blog1 from './components/Blog1';
+import Blog2 from './components/Blog2';
+import BlogPage from './components/BlogPage';
+import Blog3 from './components/Blog3';
+import Blog4 from './components/Blog4';
+import Download from './components/Download';
 class Root extends Component {
     render() {
         return(
                 <Router  basename="/">
                     <Whatsapp/>
+                    <Download/>
 	                <div>
 	                <Switch>
 	                    <Route exact path="/" component={HomeV2} />
@@ -180,6 +191,12 @@ class Root extends Component {
                         <Route path="/allprojects" component={ Product_Details31} />
                         <Route path="/Interior" component={ Product_Details33} />
                         <Route path="/homepage" component={ HomePage} />
+                        <Route path="/Blog1" component={ Blog1} />
+                        <Route path="/Blog2" component={ Blog2} />
+                        <Route path="/Blogs" component={ BlogPage} />
+                        <Route path="/Blog3" component={ Blog3} />
+                        <Route path="/Blog4" component={ Blog4} />
+
                         {/* <Route path="/homepage" component={ HomePage} /> */}
 
 
@@ -197,7 +214,11 @@ class Root extends Component {
                         <Route path="/Faqs" component={FaqPage} />
                         <Route path="/Aura" component={Aura} />
                         <Route path="/Rue" component={Rue} />
-
+                        <Route path="/Thamra" component={Thamra} />
+                        <Route path="/Raaha" component={VillaRaaha} />
+                        <Route path="/Mira" component={Mira} />
+                        <Route path="/Alba" component={Alba} />
+                        
 
             
                         {/* new lpi */}

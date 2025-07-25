@@ -229,7 +229,7 @@ font-family: 'Poppins', sans-serif;
   /* Darken */
   --ltn__primary-color-3: #133236;
   /* Lighten */
-  --ltn__secondary-color: #082A9D;
+  --ltn__secondary-color: #CB4D29;
   --ltn__secondary-color-2: #CB4D29;
   /* Darken */
   --ltn__secondary-color-3: #CB4D29;
@@ -457,13 +457,13 @@ p {
   -moz-hyphens: auto;
   -ms-hyphens: auto; */
   /* hyphens: auto; */
-  font-size: 30px;
+  font-size: 2.5rem;
   font-family: 'Poppins', sans-serif ;
-  font-weight: 400;
+  font-weight: 480;
   text-decoration:none solid rgb(0, 0, 0);
   vertical-align: baseline;
   word-spacing: 0px;
-  text-align: justify;
+  text-align: left;
   text-justify: inter-word;
   
 }
@@ -10578,11 +10578,13 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .ltn__social-media ul {
   margin: 0;
   padding: 0;
+  
 }
 .ltn__social-media ul li {
   list-style: none;
   display: inline-block;
   margin: 0 15px 0 0;
+ 
 }
 .ltn__social-media ul li:last-child {
   margin: 0;
@@ -14179,12 +14181,12 @@ input.cart-plus-minus-box {
   line-height: 40px;
 }
 .ltn__faq-inner-2 .card .ltn__card-title[aria-expanded="true"] {
-  background-color: #CB4D29;
-  color: white;
-  border-radius: 1rem 1rem 0 0;
+  background-color: white;
+  color: black;
+  /* border-radius: 1rem 1rem 0 0; */
 }
 .ltn__faq-inner-2 .card .ltn__card-title[aria-expanded="true"]:before {
-  color: white;
+  color: black;
   
 }
 .ltn__faq-inner-2 .card .card-body {

@@ -114,11 +114,11 @@
                  
                     <ul style={{ fontSize: '2rem', lineHeight: '1.8' }}>
                          <div className="site-logo">
-						<Link to="/"><img src={publicUrl+"assets/img/updatates/project/Logo LPI.png"} alt="Logo" style={{width:'120px',height:'90px'}} /></Link>
+						<Link to="/"><img src={publicUrl+"assets/img/updatates/project/Logo LPI orange.png"} alt="Logo" style={{width:'150px',height:'auto'}} /></Link>
 					</div>
                       <li
                         style={{
-                          borderBottom: '2px solid white',
+                          // borderBottom: '2px solid white',
                           display: 'inline-block',
                         }}
                       >
@@ -127,7 +127,7 @@
                       <br />
                       <li
                         style={{
-                          borderBottom: '2px solid white',
+                          // borderBottom: '2px solid white',
                           display: 'inline-block',
                         }}
                       >
@@ -136,25 +136,25 @@
                       <br />
                       <li
                         style={{
-                          borderBottom: '2px solid white',
+                          // borderBottom: '2px solid white',
                           display: 'inline-block',
                         }}
                       >
-                        <Link to="/Getin">Get a Quote →</Link>
+                        <Link to="/GetQuote">Get a Quote →</Link>
                       </li>
                       <br />
                       <li
                         style={{
-                          borderBottom: '2px solid white',
+                          // borderBottom: '2px solid white',
                           display: 'inline-block',
                         }}
                       >
-                        <Link to="/Faqs">FAQs →</Link>
+                        <Link to="/Faqs">Pages →</Link>
                       </li>
                       <br />
                       <li
                         style={{
-                          borderBottom: '2px solid white',
+                          // borderBottom: '2px solid white',
                           display: 'inline-block',
                         }}
                       >

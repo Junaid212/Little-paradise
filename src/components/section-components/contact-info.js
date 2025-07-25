@@ -24,7 +24,8 @@ class ContactInfo extends Component {
 					<p className='responsive-text-contact-detais text-white' id="contactstyle" ><a href="#"> #305, 3rd Floor, Milestone25,Balmata Mangalore - 575002</a></p>
 					</div> */}
 					<div className='contactline'>
-					<p className='responsive-text-contact-detais text-white' id="contactstyle"  >#305, 3rd Floor, Milestone25,Balmata Mangalore - 575002</p>
+					<p className='responsive-text-contact-detais text-white' id="contactstyle"  > Empire Heights Tower B - Dubai Fountain St - Business Bay - Dubai -
+United Arab Emirates</p>
 				
 					</div>
 					</div>

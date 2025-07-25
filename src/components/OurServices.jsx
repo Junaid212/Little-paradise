@@ -32,13 +32,19 @@ function OurServices() {
       id: "faq-item-2-5",
       title: "Lighting Design",
       text:'We design bespoke lighting solutions that elevate your environment, crafting an ambiance that’s both captivating and functional to create the perfect atmosphere for your space and enhance its aesthetic appeal.',
-      image: "assets/img/updatates/ourServices/lightDs.jpg"
+      image: "assets/img/updatates/ourServices/light.png"
     },
     {
       id: "faq-item-2-6",
       title: "MEP Design",
       text:'Combining creativity with technical expertise, we develop mechanical, electrical, and plumbing solutions with efficiency at their cores. All our designs are engineered to optimise energy use and ensure a smooth, efficient fit-out process.',
       image: "assets/img/updatates/ourServices/MEP.jpg"
+    },
+    {
+      id: "faq-item-2-7",
+      title: "Interior Wrapping",
+      text:'Interior vinyl wrapping offers a quick, cost-effective way to refresh surfaces like wardrobes,kitchen cabinets, and walls. With a variety of textures and finishes, it enhances aesthetics while minimizing renovation time and disruption.',
+      image: "assets/img/updatates/ourServices/wrap.jpg"
     },
   ];
 
@@ -47,8 +53,8 @@ function OurServices() {
 
   return (
     <div className="ltn__faq-area" id='ltn__faq-area'>
-      <h1 className='h1-txt text-center pb-4'>Full range of services<br/>
-In the field of Interior Design</h1>
+      <p className='h1-txt text-center pb-4 font-normal'>Full range of services<br/>
+In the field of Interior Design</p>
       <div className="container">
         <div className="row">
           {/* Left Side - Accordion */}
@@ -62,9 +68,9 @@ In the field of Interior Design</h1>
                     style={{
                       borderRadius:
                         index === 0
-                          ? '1rem 1rem 0 0'
+                          ? '0 0 0 0'
                           : index === services.length - 1
-                          ? '0 0 1rem 1rem'
+                          ? '0 0 0 0'
                           : '0'
                     }}
                   >
@@ -74,7 +80,7 @@ In the field of Interior Design</h1>
                       data-bs-target={`#${service.id}`}
                       aria-expanded="false"
                       onClick={() => setSelectedImage(service.image)}
-                      style={{ cursor: "pointer" }}
+                      style={{ cursor: "pointer", fontWeight:"500"}}
                     >
                       {service.title}
                     </h6>
@@ -104,7 +110,8 @@ In the field of Interior Design</h1>
                   alt="Selected Service"
                   style={{
                     width: '100%',
-                    borderRadius: '0.5rem',
+                    marginTop:'30px',
+                    // borderRadius: '0.5rem',
                     objectFit: 'cover',
                     maxHeight: '400px'
                   }}

@@ -109,11 +109,11 @@ function Faqs() {
   return (
     <div className="ltn__faq-area" id='ltn__faq-area' style={{marginTop:"-150px"}}>
          
-      <h1 className='h1-txt text-center pb-4 '>Frequently Asked Questions</h1>
+      <h1 className='h1-txt text-center pb-4 font-normal'>Frequently Asked Questions</h1>
       <div className="container">
         <div className="row">
           {/* Left Side - Accordion */}
-          <div className="col-lg-12">
+          <div className="col-lg-12 font-normal">
             <div className="ltn__faq-inner ltn__faq-inner-2">
               <div id="accordion_2">
                 {services.map((service, index) => (
@@ -135,7 +135,7 @@ function Faqs() {
                       data-bs-target={`#${service.id}`}
                       aria-expanded="false"
                       onClick={() => setSelectedImage(service.image)}
-                      style={{ cursor: "pointer" }}
+                      style={{ cursor: "pointer",fontWeight:"normal" }}
                     >
                       {service.title}
                     </h6>
@@ -156,23 +156,7 @@ function Faqs() {
             </div>
           </div>
 
-          {/* Right Side - Image */}
-          {/* <div className="col-lg-6">
-            <aside className="sidebar-area ltn__right-sidebar">
-              <div className="widget ltn__banner-widget go-top" id="imageChange">
-                <img
-                  src={selectedImage}
-                  alt="Selected Service"
-                  style={{
-                    width: '100%',
-                    borderRadius: '0.5rem',
-                    objectFit: 'cover',
-                    maxHeight: '400px'
-                  }}
-                />
-              </div>
-            </aside>
-          </div> */}
+         
         </div>
       </div>
     </div>

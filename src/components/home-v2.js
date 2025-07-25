@@ -35,6 +35,9 @@ import GetTouch from './section-components/GetTouch';
 import WhyChooseUs from './WhyChooseUs';
 import OurServices from './OurServices';
 import GetQuote from './GetQuote';
+import Reviews from './Reviews';
+import TeamDetails from './section-components/team-details';
+import ImageSlider from './ImageSlider';
 
 const Home_V2 = () => {
     return <div>
@@ -78,7 +81,7 @@ const Home_V2 = () => {
         {/* <Cateogory /> */}
         {/* <br/> */}
         {/* <Testimonial /> */}
-        <BlogSlider />
+        {/* <BlogSlider /> */}
         {/* <CallToActionV1 /> */}
 
          {/* mobile and desktop */}
@@ -87,8 +90,8 @@ const Home_V2 = () => {
 
 
          {/* mobile and desktop */}
-
-
+        <ImageSlider/>
+          <Reviews/>
         <Footer />
         {/* <MainFooter/> */}
     </div>

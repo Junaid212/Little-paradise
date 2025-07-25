@@ -24,7 +24,7 @@ import RollsPage from './shop-components/RollsPage';
 const Rolls = () => {
     return <div>
         <NavbarV2 />
-        <PageHeader headertitle="ROLLS AND KARAK, Al Mizhar, Dubai, U.A.E 
+        <PageHeader headertitle="ROLLS AND KARAK
 
 
 "  customclass="mb-0" />

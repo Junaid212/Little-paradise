@@ -26,8 +26,8 @@ const Whatsapp = () => {
       color: white;
       border-radius: 50px;
       text-align: center;
-      transition-duration: 0.5s;
-      animation: pulse-btn 3s infinite;
+      // transition-duration: 0.5s;
+      // animation: pulse-btn 3s infinite;
       z-index: 9000;
     }
 

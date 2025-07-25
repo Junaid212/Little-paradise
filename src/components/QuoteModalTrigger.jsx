@@ -14,7 +14,7 @@ export default function QuoteModalTrigger({ className }) {
 
   return (
     <>
-      <Link to="/about" className={className} onClick={handleOpen}>
+      <Link to="/GetQuote" className={className} onClick={handleOpen}>
         Get a Quote
       </Link>
 

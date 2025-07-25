@@ -92,11 +92,14 @@ import Jamal from './components/Jamal';
 import MonrevePage from './components/shop-components/MonrevePage';
 import Monreve from './components/Monreve';
 import GetTouchPage from './components/GetTouchPage';
+import Download from './components/Download';
+
 class Root extends Component {
     render() {
         return(
                 <Router  basename="/">
                     <Whatsapp/>
+                    <Download/>
 	                <div>
 	                <Switch>
 	                    <Route exact path="/" component={HomeV2} />
@@ -189,6 +192,7 @@ class Root extends Component {
                         <Route path="/Jamal" component={ Jamal} />
                         <Route path="/Monreve" component={ Monreve} />
                         <Route path="/Getin" component={GetTouchPage} />
+                        
                         {/* new lpi */}
 	                </Switch>
 	                </div>

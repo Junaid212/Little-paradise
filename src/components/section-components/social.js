@@ -14,7 +14,7 @@ class Social extends Component {
 
 
 				<li><a href="https://wa.me/919036268899" title="WhatsApp"><i className="fab fa-whatsapp"></i> </a></li>
-				<li><a href="https://www.youtube.com/@TheArchitectureCorporation/videos" title="youtube"><i className="fab fa-youtube" /></a></li>
+				{/* <li><a href="https://www.youtube.com/@TheArchitectureCorporation/videos" title="youtube"><i className="fab fa-youtube" /></a></li> */}
 				<li><a href="https://www.instagram.com/thearchitecturecorporation/" title="Instagram"><i className="fab fa-instagram" /></a></li>
 				<li><a href="https://www.linkedin.com/company/the-architecture-corporation/?originalSubdomain=in" title="linkedin"><i className="fab fa-linkedin" /></a></li>
 			</ul>

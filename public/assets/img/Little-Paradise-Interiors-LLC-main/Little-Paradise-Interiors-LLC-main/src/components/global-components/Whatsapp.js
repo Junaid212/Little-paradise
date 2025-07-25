@@ -22,12 +22,12 @@ const Whatsapp = () => {
       height: 60px;
       bottom: 130px;
       right: 30px;
-      background-color: #45C155;
+      // background-color: #45C155;
       color: white;
       border-radius: 50px;
       text-align: center;
-      transition-duration: 0.5s;
-      animation: pulse-btn 3s infinite;
+      // transition-duration: 0.5s;
+      // animation: pulse-btn 3s infinite;
       z-index: 9000;
     }
 

@@ -44,6 +44,12 @@ class Footer_v1 extends Component {
 
         return (
 				<footer className="ltn__footer-area" >
+					<style>{`
+					  		.contactlinefooter{
+							color:white;
+							}
+
+					  `}</style>
 				  <div className="footer-top-area  section-bg-2 plr--5" style={{backgroundColor:"#CB4D29"}}>
 				    <div className="container-fluid">
 				      <div className="row">
@@ -146,8 +152,14 @@ class Footer_v1 extends Component {
 						<div className="col-xl-4 col-md-6 col-sm-12 col-10 mt-30">
 				          <div className="footer-widget footer-newsletter-widget">
 							<div className="footer-address-info">
+								<style>{`
+					  		#footerstyle:hover{
+							color:white;
+							}
+
+					  `}</style>
 							<div className="footer-address-info" >
-				                    <p id="footerstyle" className='contactlinefooter ml-30 footercss'><a href="tel:+91 90362 68899">+91 90362 68899</a></p>
+				                    <p id="footerstyle" className='contactfooter ml-30 '><a href="tel:+919036268899">+91 90362 68899</a></p>
 									{/* <div className="ltn__social-media" > */}
 									<p id="footerstyle"   className="footercss" style={{marginTop:'-20px',marginLeft:'30px'}}><a><Social/></a></p>
 						    	{/* <Social /> */}

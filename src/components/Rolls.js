@@ -24,10 +24,7 @@ import RollsPage from './shop-components/RollsPage';
 const Rolls = () => {
     return <div>
         <NavbarV2 />
-        <PageHeader headertitle="ROLLS AND KARAK 
-
-
-"  customclass="mb-0" />
+        <PageHeader headertitle="ROLLS AND KARAK"  customclass="mb-0" />
         {/* <ProductSliderV115/> */}
         <RollsPage />
         {/* <CallToActionV1 /> */}

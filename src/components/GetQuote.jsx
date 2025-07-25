@@ -169,7 +169,7 @@ export default function GetQuote() {
               </div>
 
               <div className="form-field-full">
-                <label className="form-label">Emirate</label>
+                <label className="form-label">Location</label>
                 <EmiratesDropdown
                   value={form.emirate}
                   onChange={(emirate) => setForm({ ...form, emirate })}

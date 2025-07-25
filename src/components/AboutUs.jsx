@@ -74,16 +74,16 @@ export default function AboutUs() {
         
         .about-story-title {
           font-size: 2.5rem;
-        //   font-weight: bold;
+        font-weight: 480;
           margin-bottom: 1.5rem;
           color: black;
-          text-align:center;
+          // text-align:center;
           margin-bottom:50px;
         }
         
         .about-story-text {
-          font-size: 1.125rem;
-          line-height: 1.75;
+          font-size: 1rem;
+          line-height: 1.5;
           color: #374151;
           margin-bottom: 1.5rem;
         }
@@ -95,6 +95,7 @@ export default function AboutUs() {
         
         .about-image-container {
           position: relative;
+          height:400px
         }
         
         .about-story-image {
@@ -285,28 +286,11 @@ export default function AboutUs() {
       `}</style>
       
       <div className="min-h-screen bg-white">
-      {/* Hero Section with Image */}
-        {/* <section className="about-hero">
-          <div className="absolute inset-0">
-          <img 
-            src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1200" 
-            alt="Modern interior design" 
-              className="about-hero-image"
-          />
-            <div className="about-hero-overlay"></div>
-          </div>
-          <div className="about-hero-content">
-            <div className="about-hero-text">
-              <h1 className="about-hero-title">About Us</h1>
-             
-          </div>
-          </div>
-      </section> */}
-
+     
       {/* Main Content */}
         <section className="about-main-section">
           <div className="about-container">
-            <h2 className="about-story-title">About Us</h2>
+            <h3 className="about-story-title" >About Us</h3>
           {/* Company Story */}
             <div className="about-story-grid">
             <div>
@@ -315,19 +299,33 @@ export default function AboutUs() {
                   At <span className="about-story-highlight">LPI</span>, we specialize in crafting interiors that are both elegant and efficient, blending aesthetics with everyday function. With a growing presence across India and the UAE, we offer end-to-end interior design solutions for homes, apartments, and boutique commercial spaces.
               </p>
                 <p className="about-story-text">
-                Each project reflects our client's personality and purpose, brought to life through curated materials, thoughtful detailing, and refined execution.
+                Each project reflects our client's personality and purpose, brought to life through curated materials, thoughtful detailing, and refined execution.  Backed by a passionate team and a commitment to quality, <span className="about-story-highlight">LPI</span> transforms interiors into timeless, expressive spaces built for how you live and work.
               </p>
-              <p className="about-mission-text">
-                  Backed by a passionate team and a commitment to quality, <span className="about-story-highlight">LPI</span> transforms interiors into timeless, expressive spaces built for how you live and work. We believe that great design should enhance your daily experience while reflecting your unique story.
-              </p>
+              {/* <p className="about-mission-text">
+                 
+              </p> */}
             </div>
               <div className="about-image-container">
-              <img 
-                src="https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg?auto=compress&cs=tinysrgb&w=800" 
-                alt="Interior design workspace" 
-                  className="about-story-image"
-              />
-                <div className="about-image-decoration"></div>
+               <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '90%',
+            objectFit: 'fill',
+            zIndex: 0,
+          }}
+        >
+          <source src='assets/img/allimgLP/about us.mp4' type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
+                {/* <div className="about-image-decoration"></div> */}
             </div>
           </div>
 
@@ -377,7 +375,7 @@ export default function AboutUs() {
           </div> */}
 
           {/* Image Gallery */}
-            <div className="about-gallery">
+            {/* <div className="about-gallery">
               <div className="about-gallery-item">
               <img 
                 src="https://images.pexels.com/photos/1571471/pexels-photo-1571471.jpeg?auto=compress&cs=tinysrgb&w=600" 
@@ -386,7 +384,7 @@ export default function AboutUs() {
               />
                 <div className="about-gallery-overlay"></div>
                 <div className="about-gallery-text">
-                  {/* <p className="about-gallery-label">Luxury Living</p> */}
+                 
               </div>
             </div>
 
@@ -398,7 +396,7 @@ export default function AboutUs() {
               />
                 <div className="about-gallery-overlay"></div>
                 <div className="about-gallery-text">
-                  {/* <p className="about-gallery-label">Modern Kitchens</p> */}
+               
               </div>
             </div>
 
@@ -410,10 +408,10 @@ export default function AboutUs() {
               />
                 <div className="about-gallery-overlay"></div>
                 <div className="about-gallery-text">
-                  {/* <p className="about-gallery-label">Elegant Bedrooms</p> */}
+                 
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
      
