@@ -28,20 +28,7 @@ class NavbarV2 extends Component {
 							<ul>
 								<li>
 								{/* ltn__language-menu */}
-								<div className="ltn__drop-menu ltn__currency-menu ltn__language-menu">
-									<ul>
-									<li><a href="#" className="dropdown-toggle"><span className="active-currency">English</span></a>
-										<ul>
-											<li><Link to="#">Arabic</Link></li>
-											<li><Link to="#">Bengali</Link></li>
-											<li><Link to="#">Chinese</Link></li>
-											<li><Link to="#">English</Link></li>
-											<li><Link to="#">French</Link></li>
-											<li><Link to="#">Hindi</Link></li>
-										</ul>
-									</li>
-									</ul>
-								</div>
+								
 								</li>
 								<li>
 								<Social />
@@ -61,17 +48,9 @@ class NavbarV2 extends Component {
 						<div className="col">
 						<div className="site-logo-wrap">
 							<div className="site-logo go-top">
-							<Link to="/"><img src={publicUrl+"assets/img/allimgLP/logo.png"} alt="Logo"  style={{width:'100px'}}/></Link>
+							<Link to="/"><img src={publicUrl+"assets/img/Allimgs/logoNav.png"} alt="Logo"  style={{width:'150px'}}/></Link>
 							</div>
-							<div className="get-support clearfix d-none">
-							<div className="get-support-icon">
-								<i className="icon-call" />
-							</div>
-							<div className="get-support-info">
-								<h6>Get Support</h6>
-								<h4><a href="tel:+123456789">123-456-789-10</a></h4>
-							</div>
-							</div>
+							
 						</div>
 						</div>
 						<div className="col header-menu-column">

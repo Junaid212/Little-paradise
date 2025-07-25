@@ -1,79 +1,24 @@
-  import React from 'react';
-  import { Link } from 'react-router-dom/cjs/react-router-dom.min';
-  import Faqs from "./Faqs";
-  // import backgroundVideo from 'assets/img/allimgLP/Bay/1.mp4';
+import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
-  export default function BannerVideo() {
-        let publicUrl = process.env.PUBLIC_URL+'/'
-    return (
+export default function BannerVideo() {
+  const publicUrl = process.env.PUBLIC_URL + '/';
 
-      <>
-    {/* <div
-    style={{ position: 'relative', height: '70vh', overflow: 'hidden' }}
-    id="banner-container"
-  >
-    <img
-      src="assets/img/allimgLP/Screenshot.png"
-      alt="Background"
-      style={{
-        position: 'absolute',
-        width: '100%',
-        height: '100%',
-        objectFit: 'cover',
-        top: 0,
-        left: 0,
-        zIndex: 0,
-        
-      }}
-      
-    />
+  // State to detect mobile
+  const [isMobile, setIsMobile] = useState(false);
 
-    <div
-      style={{
-        position: 'relative',
-        zIndex: 1,
-        color: 'black',
-        padding: '4rem 2rem',
-        fontFamily: 'sans-serif',
-      }}
-      
-    >
-      <ul
-        style={{ fontSize: '2rem', lineHeight: '1.8' }}
-      
-      >
-        <li style={{ borderBottom: '2px solid black', display: 'inline-block' }}>
-          <Link to="/">Home →</Link>
-        </li>
-        <br />
-        <li style={{ borderBottom: '2px solid black', display: 'inline-block' }}>
-          <Link to="/Interior">Project →</Link>
-        </li>
-        <br />
-        <li style={{ borderBottom: '2px solid black', display: 'inline-block' }}>
-          <Link to="/contact">Contact →</Link>
-        </li>
-        <br />
-      </ul>
-    </div>
-  </div> */}
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <div style={{ position: 'relative', overflow: 'hidden' }}>
+  return (
+    <>
+      <div style={{ position: 'relative', overflow: 'hidden' }}>
         {/* Background Video */}
         <video
           autoPlay
@@ -86,91 +31,85 @@
             left: 0,
             width: '100%',
             height: '100%',
-            objectFit: 'fill',
+            objectFit: 'cover',
             zIndex: 0,
           }}
         >
-          <source src='assets/img/allimgLP/Bay/1.mp4' type="video/mp4" />
+          <source
+            src={
+              isMobile
+                ? 'assets/img/Allimgs/lpi mdv.mp4' // 👉 Mobile video path
+                : 'assets/img/allimgLP/Bay/1.mp4' // 👉 Desktop video path
+            }
+            type="video/mp4"
+          />
           Your browser does not support the video tag.
         </video>
 
-        {/* Content Section */}
+        {/* Overlay Content */}
         <div
-          className="ltn__about-us-area pt-20 pb-10"
-          id="responsive-text-project-bannerpage"
-          style={{ position: 'relative', zIndex: 1 }}
+          className="content-overlay"
+          style={{
+            position: 'relative',
+            zIndex: 1,
+            padding: '4rem 1.5rem',
+            color: 'white',
+            fontFamily: 'sans-serif',
+            textAlign: isMobile ? 'center' : 'left',
+          }}
         >
+          <style>{`
+            .content-overlay ul {
+              font-size: ${isMobile ? '1.2rem' : '2rem'};
+              // line-height: ${isMobile ? '1.6' : '2'};
+              padding-left: 0;
+              margin: 0;
+              list-style: none;
+            }
+
+            .content-overlay li {
+              display: block;
+              margin-bottom: 10px;
+            }
+
+            .content-overlay a {
+              color: white;
+              text-decoration: none;
+              transition: color 0.3s;
+            }
+
+            .content-overlay a:hover {
+              color: #CB4D29;
+              // text-decoration: underline;
+            }
+
+            .site-logo img {
+              width: ${isMobile ? '120px' : '150px'};
+              height: auto;
+              margin-bottom: 2rem;
+            }
+          `}</style>
+
           <div className="container">
-            <div className="row">
-              <div className="col-lg-12 col-md-12">
-                <div className="ltn__shop-details-inner ltn__page-details-inner mb-60">
-                  <div
-                    style={{
-                      color: 'white',
-                      padding: '4rem 2rem',
-                      fontFamily: 'sans-serif',
-                    }}
-                  >
-                 
-                    <ul style={{ fontSize: '2rem', lineHeight: '1.8' }}>
-                         <div className="site-logo">
-						<Link to="/"><img src={publicUrl+"assets/img/updatates/project/Logo LPI orange.png"} alt="Logo" style={{width:'150px',height:'auto'}} /></Link>
-					</div>
-                      <li
-                        style={{
-                          // borderBottom: '2px solid white',
-                          display: 'inline-block',
-                        }}
-                      >
-                        <Link to="/">Home →</Link>
-                      </li>
-                      <br />
-                      <li
-                        style={{
-                          // borderBottom: '2px solid white',
-                          display: 'inline-block',
-                        }}
-                      >
-                        <Link to="/Interior">Project →</Link>
-                      </li>
-                      <br />
-                      <li
-                        style={{
-                          // borderBottom: '2px solid white',
-                          display: 'inline-block',
-                        }}
-                      >
-                        <Link to="/GetQuote">Get a Quote →</Link>
-                      </li>
-                      <br />
-                      <li
-                        style={{
-                          // borderBottom: '2px solid white',
-                          display: 'inline-block',
-                        }}
-                      >
-                        <Link to="/Faqs">Pages →</Link>
-                      </li>
-                      <br />
-                      <li
-                        style={{
-                          // borderBottom: '2px solid white',
-                          display: 'inline-block',
-                        }}
-                      >
-                        <Link to="/contact">Contact →</Link>
-                      </li>
-                      <br />
-                    </ul>
-                  </div>
-                </div>
-              </div>
+            <div className="site-logo">
+              <Link to="/">
+                <img
+                  src={publicUrl + 'assets/img/updatates/project/Logo LPI orange.png'}
+                  alt="Logo"
+                />
+              </Link>
             </div>
+
+            <ul>
+              <li><Link to="/">Home →</Link></li>
+              <li><Link to="/Interior">Project →</Link></li>
+              <li ><a href='#get'>Get a Quote →</a></li>
+              <li><Link to="/Faqs">Pages →</Link></li>
+              <li><Link to="/contact">Contact →</Link></li>
+            </ul>
           </div>
         </div>
       </div>
-
-  </>
-
-    );
-  }
+    </>
+  );
+}

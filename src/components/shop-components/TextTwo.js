@@ -12,7 +12,7 @@ class TextTwo extends Component {
                 <div className="container">
                 <div className="row">
                     <div className="col-lg-12 col-md-12">
-                    <div className="ltn__shop-details-inner ltn__page-details-inner mb-60">
+                    <div className="ltn__shop-details-inner ltn__page-details-inner mb-0">
                     
                         
 
@@ -22,7 +22,14 @@ class TextTwo extends Component {
 
 
                      
-<p   id='responsive-text-project-title'>At The Architecture Corporation, we specialize in creating beautiful, functional interior designs tailored to your needs in Mangalore. Whether for a home, office, or retail space, we blend style and practicality to reflect your unique vision. With numerous successful interior designs in Mangalore and beyond, our focus on creativity and attention to detail transforms spaces into inspiring environments.
+<p   id='responsive-text-project-title'>At LPI, we create elegant, functional interiors that blend aesthetics with
+everyday living. As a growing interior design firm in India and the UAE, we
+deliver turnkey solutions for homes, apartments, and boutique commercial
+spaces.
+
+Our work reflects each client’s personality through curated materials, refined
+detailing, and seamless execution. Backed by a passionate team, we craft
+timeless interiors built for how you live and work.
 
  
                         </p>

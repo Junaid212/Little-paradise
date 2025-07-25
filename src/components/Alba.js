@@ -31,7 +31,7 @@ and a timeless palette perfectly tailored for luxurious urban living in the UAE.
 
 <div className="ltn__property-details-gallery mb-30" id='responsive-text-project-title'>
                         <div className="row">
-                            <div className="col-md-12">
+                            <div className="col-md-11">
                             <a>
                                 <img className="mb-30" src={publicUrl+"assets/img/allimgLP/Alba/albaH.PNG"} alt="Image" />
                                 {/* <img className="mb-30" src={publicUrl+"assets/img/allimgLP/maz/maz2.jpg"} alt="Image" /> */}

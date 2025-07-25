@@ -14,7 +14,7 @@ class ShopDetails20 extends Component {
 					<div className="col-lg-12 col-md-12">
 					<div className="ltn__shop-details-inner ltn__page-details-inner mb-60">
 					
-						<h2 id='responsive-text-project-heading'> 3 BHK/ Terra
+						<h2 id='responsive-text-project-heading'> 
                         </h2>
 					 <label  id='responsive-text-project-title'><span className="ltn__secondary-color"><img src={publicUrl+"assets/img/Allimgs/pin.png"}/></span>Mangalore</label> 
 

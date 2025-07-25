@@ -17,7 +17,7 @@ class AuraPage extends Component {
                         {/* <h2 id='responsive-text-project-heading'> SpecksDesk
                         </h2> */}
                      <label id='responsive-text-project-title'
-                     ><span className="ltn__secondary-color"><img src='assets/img/Allimgs/pin.png' /></span>Downtown, Dubai, United Arab Emirates</label> 
+                     ><span className="ltn__secondary-color" style={{justifyItems:"center"}}><img src='assets/img/Allimgs/pin.png' /></span>Downtown, Dubai, United Arab Emirates</label> 
                         {/* <h4 className="title-2">Estatehouse</h4>
                         <p>Nestled within a scenic landscape, our double-sized house layout offers an enriched ecosystem and enhanced security. Planned around the natural contours, each residence enjoys privacy while fostering community engagement through landscaped areas, footpaths, and street lights.</p>
                         <p>Residents also have access to a clubhouse featuring amenities such as a pool, indoor game area, and gym. These facilities provide opportunities for fun, stress relief, and quality time with loved ones.</p>

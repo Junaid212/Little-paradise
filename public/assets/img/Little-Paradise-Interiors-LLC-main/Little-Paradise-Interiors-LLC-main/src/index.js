@@ -192,6 +192,7 @@ class Root extends Component {
                         <Route path="/Jamal" component={ Jamal} />
                         <Route path="/Monreve" component={ Monreve} />
                         <Route path="/Getin" component={GetTouchPage} />
+                       
                         
                         {/* new lpi */}
 	                </Switch>

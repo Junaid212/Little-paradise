@@ -15,10 +15,10 @@ class ContactInfo extends Component {
 					<div id='contactinfo'>
 					<div className='contactline' >
 					<p className='responsive-text-contact-detais text-white' id="contactstyle" >
-					<a href="mailto:design@thearchitecturecorporation.com" id="contactstyle" >design@thearchitecturecorporation.com</a></p>
+					<a href="mailto:littleparadiseinteriors@gmail.com" id="contactstyle" >littleparadiseinteriors@gmail.com</a></p>
 					</div>
 					<div className='contactline'>
-					<p className='responsive-text-contact-detais text-white' id="contactstyle" ><a href="tel:+ 91 90362 68899">  +91 90362 68899</a></p>
+					<p className='responsive-text-contact-detais text-white' id="contactstyle" ><a href="tel:+971 52 587 7664">  +971 52 587 7664</a></p>
 					</div>
 					{/* <div className='contactline'>
 					<p className='responsive-text-contact-detais text-white' id="contactstyle" ><a href="#"> #305, 3rd Floor, Milestone25,Balmata Mangalore - 575002</a></p>

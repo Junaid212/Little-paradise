@@ -104,7 +104,7 @@ export default function GetQuote() {
 
   return (
     
-    <div className="gradient-bg">
+    <div className="gradient-bg" id='get'>
       <div className="container">
         <div className="quote-card">
           {/* Header */}
@@ -189,6 +189,7 @@ export default function GetQuote() {
                       type="range"
                       min="0"
                       max="5000"
+                      step="10"
                       value={area}
                       onChange={handleAreaChange}
                       className="range-slider"

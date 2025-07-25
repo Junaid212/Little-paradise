@@ -47,12 +47,12 @@ class Footer_v1 extends Component {
 				  <div className="footer-top-area  section-bg-2 plr--5" style={{backgroundColor:"#CB4D29"}}>
 				    <div className="container-fluid">
 				      <div className="row">
-				        <div className="col-xl-4 col-md-6 col-sm-6 col-12 mt-30 ">
+				        <div className="col-xl-4 col-md-6 col-sm-6 col-12 mt-2 ">
 				          <div className="footer-widget footer-about-widget">
 						  {/* <h4 className="footer-title"  id='responsive-text-project-heading' style={{color:'white'}}>Contact Us</h4> */}
 						  <div className="footer-logo" id='responsive-text-project-heading' >
 				              <div className="site-logo">
-				                <a href='/' target='_blank'><img src={publicUrl+"assets/img/allimgLP/logo.png"} alt="Logo" style={{height:'100px'}}  id="footeimg" /></a>
+				                <a href='/' target='_blank'><img src={publicUrl+"assets/img/Allimgs/colored-logo.png"} alt="Logo" style={{height:'120px',width:'auto'}}  id="footeimg" /></a>
 				              </div>
 							  {/* <a href='/' target='_blank'>  <p id="footerstyle" className='mt-6'>Building Beyond</p></a>	 */}
 				            </div>
@@ -107,7 +107,7 @@ class Footer_v1 extends Component {
 				        </div> */}
 				      
 				       
-				        <div className="col-xl-4 col-md-6 col-sm-12 col-10 mt-30">
+				        <div className="col-xl-4 col-md-6 col-sm-12 col-10 mt-60">
 				          <div className="footer-widget footer-newsletter-widget">
 				            {/* <h4 className="footer-title">Newsletter</h4> */}
 						
@@ -143,7 +143,7 @@ class Footer_v1 extends Component {
 
 
 
-						<div className="col-xl-4 col-md-6 col-sm-12 col-10 mt-30">
+						<div className="col-xl-4 col-md-6 col-sm-12 col-10 mt-50">
 				          <div className="footer-widget footer-newsletter-widget">
 							<div className="footer-address-info">
 							<div className="footer-address-info" >
