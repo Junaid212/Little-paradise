@@ -38,6 +38,7 @@ import GetQuote from './GetQuote';
 import Reviews from './Reviews';
 import TeamDetails from './section-components/team-details';
 import ImageSlider from './ImageSlider';
+import AboutUs from './AboutUs';
 
 const Home_V2 = () => {
     return <div>
@@ -47,6 +48,7 @@ const Home_V2 = () => {
         {/* <HomeNav /> */}
         <BannerVideo/>
         <HomePage/>
+         <AboutUs/>
         <WhyChooseUs/>
         <OurServices/>
         <GetQuote/>

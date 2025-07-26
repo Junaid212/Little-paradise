@@ -109,7 +109,7 @@ function Faqs() {
   return (
     <div className="ltn__faq-area" id='ltn__faq-area' style={{marginTop:"-150px"}}>
          
-      <h1 className='h1-txt text-center pb-4 font-normal'>Frequently Asked Questions</h1>
+      <h1 className='h1-txt text-center pb-4 font-normal' style={{fontWeight:'500'}}>Frequently Asked Questions</h1>
       <div className="container">
         <div className="row">
           {/* Left Side - Accordion */}

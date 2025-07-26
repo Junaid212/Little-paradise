@@ -138,7 +138,7 @@ function WhyChooseUs() {
         //   color: white;
         // }
       `}</style>
-      <section className="why-section">
+      <section className="why-section" >
         <div className="why-container">
           <div className="why-header">
             <h2 className="why-title">Why We Are The Best Interior Designers?</h2>

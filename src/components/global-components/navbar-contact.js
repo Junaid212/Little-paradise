@@ -61,7 +61,7 @@ class Contactnav extends Component {
 						<div className="col">
 						<div className="site-logo-wrap">
 							<div className="site-logo go-top">
-							<Link to="/"><img src={publicUrl+"assets/img/updatates/project/Logo%20LPI%20orange.png"} alt="Logo"  style={{width:'100px'}}/></Link>
+							<Link to="/"><img src={publicUrl+"assets/img/updatates/project/Logo LPI orange.png"} alt="Logo"  style={{width:'100px'}}/></Link>
 							</div>
 							<div className="get-support clearfix d-none">
 							<div className="get-support-icon">
@@ -90,8 +90,9 @@ class Contactnav extends Component {
 									</ul> */}
 								{/* </li> */}
 								{/* <li><Link to="/Architecture">Architecture Design</Link></li> */}
-																<li><Link to="/Interior">Project </Link></li>
-																<li><Link to="/Blogs">Blog </Link></li>
+																<li><Link to="/Interior">Projects </Link></li>
+																<li><Link to="/getQuote">Get a Quote </Link></li>
+																<li><Link to="/Blogs">Pages </Link></li>
 								{/* <li><Link to="/blog-grid">Projects </Link></li> */}
 								<li><Link to="/contact">Contact </Link></li>
 
@@ -165,7 +166,7 @@ class Contactnav extends Component {
 				<div className="ltn__utilize-menu-inner ltn__scrollbar">
 					<div className="ltn__utilize-menu-head">
 					<div className="site-logo">
-						<Link to="/"><img src={publicUrl+"assets/img/updatates/project/LogoLPI orange.png"} alt="Logo" style={{width:'90px'}} /></Link>
+						<Link to="/"><img src={publicUrl+"assets/img/updatates/project/Logo LPI orange.png"} alt="Logo" style={{width:'90px'}} /></Link>
 					</div>
 					<button className="ltn__utilize-close">×</button>
 					</div>
@@ -203,7 +204,8 @@ class Contactnav extends Component {
 						{/* </li> */}
 						{/* <li><Link to="/Architecture">Architecture Design</Link></li> */}
 														<li><Link to="/Interior">Project </Link></li>
-								<li><Link to="/Blogs">Blog </Link></li>
+														<li><Link to="/getQuote">Get a quote </Link></li>
+								<li><Link to="/Blogs">Pages</Link></li>
 								<li><Link to="/contact">Contact </Link></li>
 						
 				

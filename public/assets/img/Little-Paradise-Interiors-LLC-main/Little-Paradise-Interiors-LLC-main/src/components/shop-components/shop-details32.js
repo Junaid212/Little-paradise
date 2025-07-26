@@ -111,7 +111,7 @@ class ShopDetails32 extends Component {
 			  <div className="col-lg-4">
 		        <div className="ltn__blog-item ltn__blog-item-3">
 		          <div className="ltn__blog-img">
-		            <Link to="/Sky"><img src={publicUrl+"assets/img/Allimgs/Picture57.webp"} alt="#" /></Link>
+		            <Link to="/Sky"><img src={publicUrl+"assets/img/Allimgs/sky/s-c.jpg"} alt="#" /></Link>
 		          </div>
 		          {/* <div className="ltn__blog-brief"> */}
 		           

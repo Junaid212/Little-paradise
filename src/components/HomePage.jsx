@@ -6,15 +6,16 @@ import AboutUs from './AboutUs'
 
 export default function HomePage() {
   return (
-    <div className="ltn__about-us-area pt-20 pb-10 ">
+    <div className="ltn__about-us-area pt-40  ">
 			  <div className="container">
 			    <div className="row">
           <div className="col-lg-12 col-md-12">
 					<div className="ltn__shop-details-inner ltn__page-details-inner mb-60">
           
     <div >
-        <p id="responsive-text-project-bannerpage" style={{textAlign:"center"}}>
-          We are a full-service interior design studio delivering end-to-end solutions, from concept to completion, across the United Arab Emirates.</p>
+        <h1  style={{ fontWeight:'400', fontSize:'32px',lineHeight:'60px'}} >
+        {/* <h1 id="responsive-text-project-bannerpage" style={{ fontWeight:'400', fontSize:'30px',lineHeight:'60px'}} > */}
+          We are a full-service interior design studio delivering end-to-end solutions, from concept to completion, across the United Arab Emirates.</h1>
   <div className="btn-wrapper animated" id='responsive-text-project-title' >
    <div >
           {/* <Link to="/Architecture" className="buttons">Architecture Design</Link>&#160; */}
@@ -79,7 +80,7 @@ export default function HomePage() {
     </div>
     </div>
     </div>
-    <AboutUs/>
+   
     </div>
   )
 }

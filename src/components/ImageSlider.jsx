@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const slides = [
   {
     id: 1,
-    image: 'assets/img/Allimgs/Sky.webp',
+    image: 'assets/img/Allimgs/sky/s-c.jpg',
     title: 'Sky',
     path: '/Sky'
   },
@@ -117,7 +117,7 @@ const ImageSlider = () => {
           width: 100%;
           height: 100%;
           object-fit: cover;
-          transition: transform 0.5s;
+          // transition: transform 0.5s;
         }
 
         .image-wrapper:hover img {
@@ -127,7 +127,7 @@ const ImageSlider = () => {
         .overlay {
           position: absolute;
           inset: 0;
-          background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+          // background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
           opacity: 0.6;
         }
 

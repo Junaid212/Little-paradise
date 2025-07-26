@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import NavbarV2 from "./global-components/navbar-v2";
 import Footer from './global-components/footer';
+import Faqs from "./Faqs";
 
 const BlogPage = () => {
   const blogItems = [
@@ -46,7 +47,7 @@ const BlogPage = () => {
       </div>
 
       {/* Gallery Grid */}
-      <div className="container-fluid px-4 pb-5">
+      <div className="container-fluid px-4 pb-5" style={{marginBottom:"200px"}}>
         <div className="row g-4 justify-content-center" style={{ maxWidth: '72rem', margin: '0 auto' }}>
           {blogItems.map((item) => (
             <div key={item.id} className="col-12 col-md-6">
@@ -75,10 +76,7 @@ const BlogPage = () => {
                 </div>
                 
                 {/* Content Overlay */}
-                <div className="position-relative bottom-0     text-black ">
-                  {/* <h3 className="h2 fw-bold mb-2" >
-                    {item.title}
-                  </h3> */}
+                <div className="position-relative  text-black " >
                   <p className="text-balck " style={{fontSize:"24px"}} >
                     {item.description}
                   </p>
@@ -88,6 +86,7 @@ const BlogPage = () => {
           ))}
         </div>
       </div>
+      <Faqs/>
       <Footer/>
     </div>
   );

@@ -102,9 +102,9 @@ export default function BannerVideo() {
 
             <ul>
               <li><Link to="/">Home →</Link></li>
-              <li><Link to="/Interior">Project →</Link></li>
+              <li><Link to="/Interior">Projects →</Link></li>
               <li ><a href='#get'>Get a Quote →</a></li>
-              <li><Link to="/Faqs">Pages →</Link></li>
+              <li><Link to="/Blogs">Pages →</Link></li>
               <li><Link to="/contact">Contact →</Link></li>
             </ul>
           </div>

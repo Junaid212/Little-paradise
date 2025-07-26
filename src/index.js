@@ -107,6 +107,7 @@ import BlogPage from './components/BlogPage';
 import Blog3 from './components/Blog3';
 import Blog4 from './components/Blog4';
 import Download from './components/Download';
+import GetQuote from './components/GetQuote';
 class Root extends Component {
     render() {
         return(
@@ -218,6 +219,7 @@ class Root extends Component {
                         <Route path="/Raaha" component={VillaRaaha} />
                         <Route path="/Mira" component={Mira} />
                         <Route path="/Alba" component={Alba} />
+                        <Route path="/getQuote" component={GetQuote}/>
                         
 
             

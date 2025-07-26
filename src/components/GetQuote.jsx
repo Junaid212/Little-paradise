@@ -80,7 +80,7 @@ export default function GetQuote() {
           timestamp: new Date().toISOString(),
         }),
       });
-      alert("Thank you! Your details were sent 🚀");
+      alert("Enquiry submitted successfully, Thank  you for being a part of team LPI");
       setForm({
         firstName: "",
         lastName: "",

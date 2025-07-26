@@ -47,9 +47,15 @@ This residential project blends luxury, functionality, and cultural aesthetics f
 
 						<div className="ltn__property-details-gallery mb-30" id='responsive-text-project-title'>
         <div className="row">
-            <div className="col-md-12">
+            <div className="col-md-6">
 			<a>
-								<img className="mb-30" src={publicUrl+"assets/img/Allimgs/Picture58.webp"} alt="Image" />
+								<img className="mb-30" src={publicUrl+"assets/img/Allimgs/sky/s-c.jpg"} alt="Image" />
+							</a>
+       
+            </div>
+            <div className="col-md-6">
+			<a>
+								<img className="mb-30" src={publicUrl+"assets/img/Allimgs/sky/s-1.jpg"} alt="Image" />
 							</a>
        
             </div>
@@ -68,33 +74,39 @@ This residential project blends luxury, functionality, and cultural aesthetics f
 <div className="row">
     <div className="col-md-6">
 	{/* <a href={publicUrl+"assets/img/Allimgs/Picture59.webp"} data-rel="lightcase:myCollection"> */}
-								<img className="mb-30" src={publicUrl+"assets/img/Allimgs/Picture59.webp"} alt="Image" />
+								<img className="mb-30" src={publicUrl+"assets/img/Allimgs/sky/s-2.jpg"} alt="Image" />
 							{/* </a> */}
 
     </div>
     <div className="col-md-6">
   
 	{/* <a href={publicUrl+"assets/img/Allimgs/Picture61.webp"} data-rel="lightcase:myCollection"> */}
-								<img className="mb-30" src={publicUrl+"assets/img/Allimgs/Picture61.webp"} alt="Image" />
+								<img className="mb-30" src={publicUrl+"assets/img/Allimgs/sky/s-3.jpg"} alt="Image" />
 							{/* </a> */}
 							
     </div>
     <div className="col-md-6">
 	{/* <a href={publicUrl+"assets/img/Allimgs/Picture60.webp"} data-rel="lightcase:myCollection"> */}
-								<img className="mb-30" src={publicUrl+"assets/img/Allimgs/Picture60.webp"} alt="Image" />
+								<img className="mb-30" src={publicUrl+"assets/img/Allimgs/sky/s-4.jpg"} alt="Image" />
 							{/* </a> */}
 
     </div>
     <div className="col-md-6">
   
 	{/* <a href={publicUrl+"assets/img/Allimgs/Picture62.webp"} data-rel="lightcase:myCollection"> */}
-								<img className="mb-30" src={publicUrl+"assets/img/Allimgs/Picture62.webp"} alt="Image" />
+								<img className="mb-30" src={publicUrl+"assets/img/Allimgs/sky/s-6.jpg"} alt="Image" />
 							{/* </a> */}
     </div>
-    <div className="col-md-12">
+    <div className="col-md-6">
   
 	{/* <a href={publicUrl+"assets/img/Allimgs/Picture63.webp"} data-rel="lightcase:myCollection"> */}
-								<img className="mb-30" src={publicUrl+"assets/img/Allimgs/Picture63.webp"} alt="Image" />
+								<img className="mb-30" src={publicUrl+"assets/img/Allimgs/sky/s-7.jpg"} alt="Image" />
+							{/* </a> */}
+    </div>
+    <div className="col-md-6">
+  
+	{/* <a href={publicUrl+"assets/img/Allimgs/Picture63.webp"} data-rel="lightcase:myCollection"> */}
+								<img className="mb-30" src={publicUrl+"assets/img/Allimgs/sky/s-5.jpg"} alt="Image" />
 							{/* </a> */}
     </div>
    

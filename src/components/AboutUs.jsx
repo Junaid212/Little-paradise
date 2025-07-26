@@ -285,7 +285,7 @@ export default function AboutUs() {
         }
       `}</style>
       
-      <div className="min-h-screen bg-white">
+      <div className="min-h-screen bg-white"  style={{marginTop:"-70px"}}>
      
       {/* Main Content */}
         <section className="about-main-section">

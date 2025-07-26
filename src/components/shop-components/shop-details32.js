@@ -421,7 +421,7 @@ const projects = [
   },
   { 
     name: 'Rolls and Karak', 
-    img: 'assets/img/allimgLP/rolls/c6.jpg',
+    img: 'assets/img/Allimgs/Rolls & Karak.jpg',
      url:'ROLLS'
   },
   { 
@@ -456,7 +456,7 @@ const projects = [
   },
   { 
     name: 'Sky', 
-    img: 'assets/img/Allimgs/Picture57.webp',
+    img: 'assets/img/Allimgs/sky/s-c.jpg',
      url:'Sky'
   },
   { 
