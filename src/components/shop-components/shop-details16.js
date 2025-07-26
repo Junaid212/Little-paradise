@@ -41,7 +41,7 @@ class ShopDetails16 extends Component {
 <div className="row">
     <div className="col-md-12">
 	<a >
-								<img className="mb-30" src={publicUrl+"assets/img/Allimgs/Picture29.webp"} alt="Image" />
+								<img className="mb-30" src={publicUrl+"assets/img/Allimgs/g1.jpg"} alt="Image" />
 							</a>
 
     </div>
@@ -58,18 +58,18 @@ class ShopDetails16 extends Component {
     <div className="col-md-6">
    
 	{/* <a href={publicUrl+"assets/img/Allimgs/Picture30.webp"} data-rel="lightcase:myCollection"> */}
-								<img className="mb-30" src={publicUrl+"assets/img/Allimgs/Picture30.webp"} alt="Image" />
+								<img className="mb-30" src={publicUrl+"assets/img/Allimgs/g3.jpg"} alt="Image" />
 							{/* </a> */}
 							{/* <a href={publicUrl+"assets/img/Allimgs/Picture32.webp"} data-rel="lightcase:myCollection"> */}
-								<img className="mb-30" src={publicUrl+"assets/img/Allimgs/Picture32.webp"} alt="Image" />
+								{/* <img className="mb-30" src={publicUrl+"assets/img/Allimgs/Picture32.webp"} alt="Image" /> */}
 							{/* </a> */}
     </div>
     <div className="col-md-6">
 	{/* <a href={publicUrl+"assets/img/Allimgs/Picture33.webp"} data-rel="lightcase:myCollection"> */}
-								<img className="mb-30" src={publicUrl+"assets/img/Allimgs/Picture33.webp"} alt="Image" />
+								<img className="mb-30" src={publicUrl+"assets/img/Allimgs/g4.jpg"} alt="Image" />
 							{/* </a> */}
    {/* <a href={publicUrl+"assets/img/Allimgs/Picture31.webp"} data-rel="lightcase:myCollection"> */}
-								<img className="mb-30" src={publicUrl+"assets/img/Allimgs/Picture31.webp"} alt="Image" />
+								{/* <img className="mb-30" src={publicUrl+"assets/img/Allimgs/Picture31.webp"} alt="Image" /> */}
 							{/* </a> */}
 							
 
